@@ -1,0 +1,24 @@
+.ide .editor-view-bar {
+  display: flex;
+  height: 36px;
+  align-items: center;
+}
+
+.ide .editor-view-bar-icon {
+  width: 50px;
+  text-align: center;
+}
+
+.ide .editor-view-bar-url {
+  display: flex;
+  flex: 1;
+  background-color: #3b3a3a;
+  height: 100%;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.ide .editor-view-bar-open {
+  width: 60px;
+  text-align: center;
+}

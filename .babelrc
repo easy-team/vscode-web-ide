@@ -1,0 +1,24 @@
+{
+  "presets": [
+    "react", ["env", {
+      "modules": false
+    }]
+  ],
+  "plugins": [
+    "transform-runtime",
+    "transform-class-properties",
+    "syntax-dynamic-import",
+    "transform-object-rest-spread", ["import", {
+      "libraryName": "antd",
+      "style": "css"
+    }]
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ]
+    }
+  },
+  "comments": false
+}

@@ -1,0 +1,56 @@
+
+.ide .top-bar {
+  display: flex;
+  height: 50px;
+  background-color: #222222;
+  color: white;
+  align-items: center;
+}
+
+.ide .top-bar-menu-bg {
+  background-color: #cecece !important;
+  top: 50px !important;
+}
+
+.ant-dropdown-menu {
+  background-color: #cecece !important;
+  color: #141313 !important;
+  border-radius: 0px !important;
+}
+
+.ide .top-bar-file {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ide .top-bar-file-item {
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: ''
+}
+
+.ide .top-bar-file-item :hover {
+  background-color: #4898f3
+}
+
+.ide .top-bar-code {
+  flex: 1;
+}
+
+.ide .top-bar-view {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.ide .top-bar-view-item {
+  margin-right: 16px;
+  vertical-align: middle;
+  line-height: 40px;
+  height: 40px;
+}

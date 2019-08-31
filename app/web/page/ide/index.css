@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.me {
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,body
+{
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+
+
+.ide {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: black;
+}
+
+.ide .logo {
+  width: 50px !important;
+}
+
+.ide .green button{
+  background-color: green !important;
+  width: 100px;
+}
+
+.ide .theme-dark {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+
+.ide .editor {
+  display: flex; 
+  justify-content: center;
+  flex: 1;
+}
+
+.ide .editor-file-container {
+  width: 200px;
+  color: white;
+  background-color: #292828;
+}
+
+.ide .editor-code-and-view-container {
+  width: 100%;
+  flex: 1;
+}
+
+.ide .editor-code-editor-container {
+  width: 60%;
+  float: left;
+}
+
+.ide .editor-code-view-container {
+  width: 40%;
+  float: right;
+}
+
+.ide .editor-code-editor-and-btn-drag-container {
+  position:relative;
+}
+
+.ide .editor-code-editor-code-container {
+  margin-right:28px;
+}
+
+.ide .editor-code-editor-btn-container {
+  position:absolute;
+  width: 28px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.ide .editor-code-tab .ant-tabs-bar{
+  margin: 0 0 0 0 !important;
+  border-bottom: 1px solid #383434 !important;
+}
+
+.ide .editor-code-tab .ant-tabs-tab {
+  color: rgba(244, 239, 239, 0.65) !important;
+  margin-right: 4px !important;
+}
+
+.ide .editor-code-tab .ant-tabs-tab i{
+  top: 0 !important;
+}
+
+.ide .editor-code-tab .ant-tabs-tab .anticon {
+  margin-right: 0px !important;
+}
+
+.ide .editor-code-tab .ant-tabs-tab-active {
+  color: #1890ff !important;
+}
+
+.ide .editor-code-tab .ant-tabs-nav-container {
+  height: 36px !important;
+}
+
+.ide .editor-code-tab .ant-tabs-content {
+  height: 0px !important;
+}
+.ide .editor-code-tab .ant-tabs-tabpane {
+  color: white;
+  height: 0px !important;
+}
+
+

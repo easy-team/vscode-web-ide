@@ -1,0 +1,13 @@
+.ide .editor-left-bar-container {
+  width: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.ide .editor-left-bar-item {
+  padding-top: 20px;
+  color: white;
+}

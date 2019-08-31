@@ -1,0 +1,37 @@
+.ide .file-context-menu {
+  display: none;
+  font-size: 12px;
+  position: absolute;
+  width: 120px;
+  height: auto;
+  padding: 5px 0px;
+  top: 10;
+  left: 10;
+  background-color: #111111;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+  color: white;
+  z-index: 1000;
+}
+.ide .file-context-menu .context-menu-item {
+  height: 32px;
+  line-height: 32px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ide .file-context-menu .context-menu-item:hover {
+  background-color: #666666;
+}
+.ide .file-context-menu .context-menu-item .menu-inner-item {
+  margin: 0px 10px;
+}
+.ide .file-context-menu .context-menu-item .menu-inner-item i {
+  margin: 0 5px 0 0;
+  font-weight: bold;
+}
+.ide .file-context-menu .context_hr {
+  height: 1px;
+  border-top: 1px solid #bbb;
+  margin: 3px 10px;
+}
