@@ -1,8 +1,8 @@
-# easy-web-ide
+# vscode-web-ide
 
 基于 Egg + React + Webpack 实现的 VSCode Web IDE 项目
 
-![easy-web-ide](https://github.com/easy-team/easy-web-ide/blob/master/docs/images/vscode-web-ide.jpg)
+![easy-web-ide](https://github.com/easy-team/vscode-web-ide/blob/master/docs/images/vscode-web-ide.jpg)
 
 
 ## 使用
