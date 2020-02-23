@@ -22,7 +22,7 @@ export default class MonacoEditor {
           return `${EASY_ENV_PUBLIC_PATH}html.worker.js`;
         }
         if (label === 'typescript' || label === 'javascript') {
-          return `${EASY_ENV_PUBLIC_PATH}typescript.worker.js`;
+          return `${EASY_ENV_PUBLIC_PATH}ts.worker.js`;
         }
         return `${EASY_ENV_PUBLIC_PATH}editor.worker.js`;
       }
